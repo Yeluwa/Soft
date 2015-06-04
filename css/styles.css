@@ -1,0 +1,160 @@
+@font-face{
+font-family:click;
+src: url("../fonts/Roboto-Thin.ttf");
+}
+@font-face{
+font-family:title;
+src: url("../fonts/Chunkfive.otf");
+}
+@font-face{
+font-family:thick;
+src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face{
+font-family:standard;
+src: url("../fonts/Roboto-Light.ttf");
+}
+
+
+body{font-family:'thick',sans-serif;
+	font-size:18px;
+	
+	}
+hr{text-align:center;margin:0 auto;opacity:0.5;}
+ul.inline-list.right{text-transform:none;
+}ul.inline-list.right a{color:#000;}
+ul.inline-list.right a:hover{color:rgba(0,0,0,0.5);}
+h1{font-family:'thick';font-size:32px;color:#fff;line-height:28px;margin-top:16px;margin-bottom:0px;text-align:center;}
+h2{font-family:'standard';color:#fff;font-size:36px;line-height:34px;}
+h3{font-family:'standard';font-size:24px;color:#fff;line-height:10px;text-align:center;font-weight:500;padding-bottom:10px;}
+h4{font-family:'standard';color:#000;font-size:28px;padding-top:5px;}
+.columns.large-centered{padding-left:5px;padding-right:5px;}
+@media only screen and (max-width: 40em) {.columns.large-centered{font-size:13px;}}
+@media only screen and (min-width: 40.063em) {.columns.large-centered{font-size:14px;}}
+.top-bar{
+background-color:#fff;
+
+}
+.top-bar img{
+height:2.8rem;
+display:block;
+margin-left: auto;
+margin-right: auto 
+}
+
+.about-box{color:#fff;}
+.black-box{background-color:rgba(0,0,0,0.55);padding:35px;font-weight:900;}
+.black-box p{font-weight:900;}
+.secondary.small.button{background-color:transparent;color:#fff;border:2px #fff solid;border-radius:5px;padding:15px 50px 15px 50px;margin:0;}
+.secondary.small.button:hover{background-color:rgba(255,255,255,0.5);}
+.row .main-wrapper{color:#333333;}
+.about-content{
+				background-color:#fff;
+				box-shadow:2px 2px 10px rgba(0,0,0,0.1);
+				color:#031634;
+				}
+.about-content p{
+color:#031634;
+}
+.button-group li .button{border:0!important; color:#333333;}
+.button{-webkit-appearance:none;
+font-family:thick;
+background-color:transparent;
+border-width:0;
+text-align:center;
+box-shadow:0 0 0;}
+.button:hover{color:rgba(255,255,255,0.7);background-color:transparent;}
+footer p,footer a{font-size:14px;}
+.hero{
+	padding-bottom:50px;
+	background-image:url("../img/new2.jpg");
+	background-size:cover;
+	box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.2);
+	}
+.hero-content{
+	padding-top:40px;
+	padding-bottom:40px;
+	background-color:#e8ddcb;
+	}
+.panel{
+margin:40px 0 40px 0;
+box-shadow:2px 2px 10px rgba(0,0,0,0.2);
+border:none;
+background-color:#031634;
+
+}
+.panel h4, .panel p{
+color:white;
+}
+.large-4 img{
+box-shadow:2px 2px 10px rgba(0,0,0,0.1);
+width:100%;
+height:7rem;
+}
+.radius.right.button{
+font-family:thick;
+color:#cdb380;
+border:2px solid #cdb380;
+border-radius:5px;
+padding:15px 50px 15px 50px;
+margin:0;
+font-size:0.8125em;
+}
+@media only screen and (min-width: 64.063em) {.radius.right.button{color:#000;border:2px #000 solid;border-radius:5px;padding:15px 50px 15px 50px;margin-top:25px;font-size:0.8125em;}}
+@media only screen and (min-width: 40.063em) {.radius.right.button{color:#000;border:2px #000 solid;border-radius:5px;padding:15px 50px 15px 50px;margin-top:25px;font-size:0.8125em;}}
+.radius.right.button:hover{background-color:rgba(0,0,0,0.1);}
+
+#installation{
+color:#303030;
+background-color:#fff;
+margin-top:1rem;
+margin-bottom:1rem;
+padding:1.5rem;
+box-shadow:2px 2px 10px rgba(0,0,0,0.1);
+}
+#installation h2{
+color:#333333;
+}
+#maintenance{
+color:#303030;
+background-color:#fff;
+margin-top:2rem;
+margin-bottom:1rem;
+padding:1.5rem;
+box-shadow:2px 2px 10px rgba(0,0,0,0.1);
+}
+#maintenance h2{
+color:#333333;
+}
+#reg{
+margin-top:1.5rem;
+margin-bottom:1.5rem;
+background-color:#fff;
+padding:2rem;
+}
+#reg span{
+margin:auto;
+color:#404040;
+}
+#reg input{
+    border:1px solid #ede0de;
+    border-color:#fe9506;
+    border-bottom-width:80%;
+    margin-top:0.5rem;
+    margin-bottom:0.5rem;
+	border-radius:10px;
+}
+#reg input:focus{
+ border-color:transparent;
+ background-color:#d0dcdc;
+ text-align:center;
+ color:#000;
+ height:3rem;
+}
+#reg button{
+    box-shadow:1px 1px 1px 1px #303030;
+    color:#303030;
+}
+footer{
+background-color:#505050;
+}
